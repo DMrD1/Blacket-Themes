@@ -9,7 +9,7 @@
 }
 
 .bb_customCSSBox {
-    background-color: var(--primary);
+    background-color: var(--primary) !important;
 }
 
 .styles__tokenBalanceIcon___3MGhs-camelCase {
@@ -116,6 +116,28 @@
 }
 
 #searchInput {
-    background-color: rgba(0, 0, 0) !important;
-    color: #ffffff !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+#searchInput::placeholder {
+    color: #ffffff;
+    opacity: 0.75;
+}
+
+
+.toastMessage {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.styles__tradingContainer___B1ABS-camelCase {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.styles__pageButton___1wFuu-camelCase:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+}
+
+.styles__pageButton___1wFuu-camelCase{
+    transition: 0.7s cubic-bezier(0, 1.46, 0.58, 1);
 }
