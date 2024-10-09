@@ -1,0 +1,47 @@
+/**
+ * @name Blooket
+ * @description Simple Blooket theme for blacket.
+ * @author DMrD
+ */
+
+:root {
+    --accent: #f000;
+    --primary: #f000;
+    --secondary: var(#2eb7e8);
+    --tertiary: #1a1a1a;
+    --halloween-purple: #a67fec;
+    --halloween-orange: #2eb7e8;
+}
+
+.styles__background___2J-JA-camelCase,
+.styles__sidebar___1XqWi-camelCase {
+    background: #0bc2cf;
+}
+
+.styles__pageButton___1wFuu-camelCase {
+    transition: 0.7s cubic-bezier(0, 1.46, 0.58, 1);
+    font-weight: bold;
+}
+
+.styles__pageButton___1wFuu-camelCase:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.styles__blooketText___1pMBG-camelCase {
+    font-family: Titan One !important;
+    font-size: 2.383vw !important;
+}
+
+.styles__tokenBalanceIcon___3MGhs-camelCase {
+    content: url("/content/tokenIcon.webp");
+}
+
+.styles__contextMenuContainer___3jAmv-camelCase {
+    background-color: var(--secondary);
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 3px;
+    font-weight: bold;
+}
