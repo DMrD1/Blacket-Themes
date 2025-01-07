@@ -1,5 +1,5 @@
 # Blacket-Themes
-Some (badly made/skidded) blacket themes!
+Some (badly made) blacket themes!
 
 # Usage
 - Install [Better Blacket](github.com/dmrd1/betterblacket)
