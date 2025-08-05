@@ -1,0 +1,29 @@
+/**
+ * @name Banto Dark
+ * @description incomplete dark theme for banto
+ * @author DMrD
+ */
+
+*, :before, :after {
+    border-color: #484848 !important;
+    --tw-shadow-colored: 0 0 #343434;
+}
+
+.bg-background {
+  background-color: rgb(60 60 60) !important;
+}
+.bg-white {
+  background-color: rgb(65 65 65) !important;
+}
+.bg-surface-light {
+  background-color: rgb(65 65 65) !important;
+}
+.text-text {
+  color: rgb(214 214 214) !important;
+}
+.border-border-light {
+  border-color: rgb(54 54 54) !important;
+}
+.to-background {
+    background: linear-gradient(#5c5c5c, rgb(66 66 66)) !important;
+}
